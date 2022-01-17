@@ -7,7 +7,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: .tsbcp
+      chart: ./tsbcp
       sourceRef:
         kind: GitRepository
         name: deploymentrepo
