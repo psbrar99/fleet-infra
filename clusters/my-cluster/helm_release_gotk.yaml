@@ -11,6 +11,6 @@ spec:
       sourceRef:
         kind: GitRepository
         name: deploymentrepo
-  interval: 1m0s
+  interval: 30s
   targetNamespace: tsb
 
