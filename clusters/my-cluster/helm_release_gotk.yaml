@@ -7,10 +7,11 @@ metadata:
 spec:
   chart:
     spec:
-      chart: .tsbcp
+      chart: ./tsbcp
       sourceRef:
         kind: GitRepository
         name: deploymentrepo
-  interval: 10m0s
+  interval: 5m
+  timeout: 10m
   targetNamespace: tsb
 
